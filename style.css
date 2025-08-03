@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+  background-color: #3d4b52;
+  color: #f1f1f1;
+}
+
+header {
+  background-color: #2e383f;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #e9dbd5;
+  color: #3d4b52;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.quote-box {
+  margin-top: 20px;
+  background-color: #fdf3f0;
+  padding: 20px;
+  max-width: 700px;
+  border-left: 5px solid #a58085;
+}
+
+.quote-box blockquote {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin: 0;
+}
+
+.big-name {
+  font-size: 2.5rem;
+  margin-top: 40px;
+  color: #2e383f;
+}
+
+.bio-section {
+  background-color: #935e69;
+  padding: 40px;
+}
+
+.bio-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.bio-card img {
+  width: 150px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.bio-section h2 {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.bio-section p {
+  color: #f8eae9;
+  line-height: 1.6;
+}
+
+#books {
+  background-color: #5c6b72;
+  padding: 40px;
+}
+
+#books h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#books ul {
+  list-style: disc;
+  padding-left: 40px;
+  color: #f1f1f1;
+}
+
+footer {
+  background-color: #2e383f;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  font-size: 0.9rem;
+}
